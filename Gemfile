@@ -28,15 +28,18 @@ group :test do
 	gem 'capybara'
 end
 
-group :production do
-	gem 'pg'
-end
+#group :production do
+#	gem 'pg'
+#end
 
 gem 'haml-rails'
+
+gem 'bcrypt-ruby'
 
 group :development do
 	gem 'hpricot'
 	gem 'ruby_parser'
+  gem 'annotate'
 end 
 
 gem 'bootstrap-sass'
