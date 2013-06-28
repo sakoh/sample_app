@@ -14,5 +14,10 @@
 <%= render 'layouts/footer' %>
 <%= debug(params) if Rails.env.development? %>
 </div>
+
+<% flash.each do |key, value| %>
+  <div class="alert alert-<%= key %>"><%= value %></div>
+<% end %>
+
 </body>
 </html>
