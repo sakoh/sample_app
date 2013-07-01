@@ -36,18 +36,18 @@ group :production do
 end
 
 gem 'haml-rails'
-
 gem 'bcrypt-ruby'
-
 gem 'rake', '10.0.4'
+gem 'bootstrap-sass'
+gem 'faker', '1.0.1'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development do
 	gem 'hpricot'
 	gem 'ruby_parser'
   gem 'annotate'
 end 
-
-gem 'bootstrap-sass'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
